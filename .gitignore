@@ -35,3 +35,9 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+# Ignore ALL in /cloud_secrets/
+/cloud_secrets/*.txt
+/cloud_secrets/
+TerraformNginx\cloud_secrets\azure_subscription_id.txt
+TerraformNginx\cloud_secrets\gcp_project_id.txt
