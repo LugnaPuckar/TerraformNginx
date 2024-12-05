@@ -4,6 +4,6 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "name" {
-  name = "test-rg"
+  name = "demo-rg-terraform"
   location = "North Europe"
 }
