@@ -41,3 +41,17 @@ terraform.rc
 /cloud_secrets/
 TerraformNginx\cloud_secrets\azure_subscription_id.txt
 TerraformNginx\cloud_secrets\gcp_project_id.txt
+
+# Ignore all .tfstate files and .lock.hcl files
+cloudplatforms/aws/terraform.tfstate.backup
+cloudplatforms/azure/terraform.tfstate.backup
+cloudplatforms/gcp/terraform.tfstate.backup
+cloudplatforms/azure/terraform.tfstate
+cloudplatforms/gcp/terraform.tfstate
+cloudplatforms/gcp/.terraform.lock.hcl
+cloudplatforms/azure/.terraform.lock.hcl
+cloudplatforms/aws/terraform.tfstate
+cloudplatforms/aws/.terraform.lock.hcl
+cloudplatforms/gcp/terraform.tfstate
+cloudplatforms/azure/terraform.tfstate
+cloudplatforms/aws/terraform.tfstate

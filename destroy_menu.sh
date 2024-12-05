@@ -7,7 +7,7 @@ destroy() {
     # Check if directory exists before trying to run terraform destroy
     if [ -d $destroyPath ]; then
         echo "Destroying resources in $dir..."
-        (cd $destroyPath && terraform destroy -auto-approve)
+        (cd $destroyPath && terraform init && terraform destroy -auto-approve)
         echo "Finished destroying resources in $dir."
     else
         echo "Directory $dir does not exist."
