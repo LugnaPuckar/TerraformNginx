@@ -61,6 +61,4 @@ This project is licensed under the MIT License.
 
 ---  
 Happy automating! 🚀  
-```  
-
-Med denna uppdatering finns instruktioner om `.pem`-nyckeln för AWS. Lägg gärna till fler detaljer om något fortfarande saknas!
+```
